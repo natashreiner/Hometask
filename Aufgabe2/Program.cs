@@ -14,5 +14,5 @@ else
 {
     max = numberB;
 }
-
+Console.Write("max = ");
 Console.WriteLine(max);
