@@ -1,0 +1,15 @@
+C:\Users\natas\Desktop\Hausaufgaben Lektion1\Aufgabe21\bin\Debug\net6.0\Aufgabe21.exe
+C:\Users\natas\Desktop\Hausaufgaben Lektion1\Aufgabe21\bin\Debug\net6.0\Aufgabe21.deps.json
+C:\Users\natas\Desktop\Hausaufgaben Lektion1\Aufgabe21\bin\Debug\net6.0\Aufgabe21.runtimeconfig.json
+C:\Users\natas\Desktop\Hausaufgaben Lektion1\Aufgabe21\bin\Debug\net6.0\Aufgabe21.dll
+C:\Users\natas\Desktop\Hausaufgaben Lektion1\Aufgabe21\bin\Debug\net6.0\Aufgabe21.pdb
+C:\Users\natas\Desktop\Hausaufgaben Lektion1\Aufgabe21\obj\Debug\net6.0\Aufgabe21.csproj.AssemblyReference.cache
+C:\Users\natas\Desktop\Hausaufgaben Lektion1\Aufgabe21\obj\Debug\net6.0\Aufgabe21.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\natas\Desktop\Hausaufgaben Lektion1\Aufgabe21\obj\Debug\net6.0\Aufgabe21.AssemblyInfoInputs.cache
+C:\Users\natas\Desktop\Hausaufgaben Lektion1\Aufgabe21\obj\Debug\net6.0\Aufgabe21.AssemblyInfo.cs
+C:\Users\natas\Desktop\Hausaufgaben Lektion1\Aufgabe21\obj\Debug\net6.0\Aufgabe21.csproj.CoreCompileInputs.cache
+C:\Users\natas\Desktop\Hausaufgaben Lektion1\Aufgabe21\obj\Debug\net6.0\Aufgabe21.dll
+C:\Users\natas\Desktop\Hausaufgaben Lektion1\Aufgabe21\obj\Debug\net6.0\refint\Aufgabe21.dll
+C:\Users\natas\Desktop\Hausaufgaben Lektion1\Aufgabe21\obj\Debug\net6.0\Aufgabe21.pdb
+C:\Users\natas\Desktop\Hausaufgaben Lektion1\Aufgabe21\obj\Debug\net6.0\Aufgabe21.genruntimeconfig.cache
+C:\Users\natas\Desktop\Hausaufgaben Lektion1\Aufgabe21\obj\Debug\net6.0\ref\Aufgabe21.dll
