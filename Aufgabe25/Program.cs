@@ -1,5 +1,7 @@
 ﻿//Напишите цикл, который принимает на вход два числа (A и B) и возводит число A в натуральную степень B
 
+Main();
+
 void Main()
 {
     bool isWorking = true;
@@ -11,6 +13,7 @@ void Main()
             case "Task25": Task25(); break;
             case "exit": isWorking = false; break;
         }
+        Console.WriteLine();
     }
 }
 
@@ -18,8 +21,8 @@ void Task25()
 {
     Console.WriteLine("Task 25");
 
-    int numbA = ReadInt("First number (A)");
-    int numbB = ReadInt("Second number (B)");
+    int numbA = ReadInt("first number (A)");
+    int numbB = ReadInt("second number (B)");
 
     Console.WriteLine($"Степень {numbB} от числа {numbA} равна {Pow(numbA, numbB)}");
 }
@@ -33,6 +36,7 @@ int ReadInt(string argumentName)
 int Pow(int firstNumber, int secondNumber)
 {
     int result = 1;
+
     for (int i = 0; i < secondNumber; i++)
     {
         result *= firstNumber;
