@@ -51,10 +51,7 @@ void GetPositionNumber(int[,] array, int positionA, int positionB)
             {
                 Console.WriteLine($"Значение элемента {array[i, j]}");
             }
-            //else 
-            //{
-              //  Console.WriteLine("Нет такого элемента"); 
-            //}
+            else Console.WriteLine("Нет такого элемента");
         }
     }
 }
