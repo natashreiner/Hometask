@@ -1,12 +1,12 @@
 ﻿// Задача 50. Напишите программу, которая на вход принимает позиции элемента в двумерном массиве, 
 // и возвращает значение этого элемента или же указание, что такого элемента нет.
 
+
 int positionA = ReadInt("position A");
 int positionB = ReadInt("position B");
-int[,] array = GetRandomArray(4, 4);
+int[,] array = GetRandomArray(6, 6);
 
 PrintArray(array);
-GetPositionNumber(array, positionA, positionB);
 
 int ReadInt(string argumentName)
 {
@@ -41,7 +41,27 @@ void PrintArray(int[,] array)
     }
 }
 
-void GetPositionNumber(int[,] array, int positionA, int positionB)
+bool CheckPosition(int[,] array, int positionA, int positionB)
+{
+    if (positionA > 0 && positionB > 0 && positionA < array.GetLength(0) && positionB < array.GetLength(1))
+    {
+        return true;
+    }
+        return false;
+}
+
+if (CheckPosition(array, positionA, positionB))
+{
+    System.Console.WriteLine($"Значение элемента {array[positionA, positionB]}");
+}
+else
+{
+    System.Console.WriteLine("Нет такого элемента");
+}
+
+// не пойму почему пишет "нет" во все остальные позиции, если делать так
+//GetPositionNumber(array, positionA, positionB);
+/*void GetPositionNumber(int[,] array, int positionA, int positionB)
 {
     for (int i =0; i < array.GetLength(0); i++)
     {
@@ -51,9 +71,12 @@ void GetPositionNumber(int[,] array, int positionA, int positionB)
             {
                 Console.WriteLine($"Значение элемента {array[i, j]}");
             }
-            else Console.WriteLine("Нет такого элемента");
+            else 
+            {
+                Console.WriteLine("Нет такого элемента");
+            }
         }
     }
-}
+}*/
 
 
