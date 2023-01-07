@@ -6,7 +6,6 @@ int secondLength = ReadInt("number N");
 int [,] array = GetRandomArray(length, secondLength);
 
 PrintArray(array);
-GetAverageInColumn(array);
 
 int ReadInt(string argumentName)
 {
@@ -41,19 +40,15 @@ void PrintArray(int[,] array)
     }
 }
 
-double GetAverageInColumn(int[,] array)
+for (int j = 0; j < array.GetLength(1); j++)
 {
-    double sum = 0;
     double average = 0;
-   
+
     for (int i = 0; i < array.GetLength(0); i++)
     {
-        for (int j = 0; j < array.GetLength(1); j++)
-        {
-            sum += array[i, j];
-        }
-        average = sum / (array.GetLength(1) + 1);
+        average += array[i, j];
     }
-    return average;
+    average /= length;
+    average = Math.Round(average, 2);
+    Console.Write(average + "; ");
 }
-
